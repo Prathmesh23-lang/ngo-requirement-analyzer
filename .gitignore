@@ -1,0 +1,40 @@
+# Dependencies
+backend/venv/
+backend/env/
+frontend/node_modules/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# SQLite Database (auto-generated on app startup)
+backend/*.db
+backend/*.db-journal
+
+# Next.js build output
+frontend/.next/
+frontend/out/
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env.local
+!backend/.env.example
+!frontend/.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
